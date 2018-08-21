@@ -1,6 +1,10 @@
-class CouponController < ApplicationController 
+class CouponController < ApplicationController
+  def index 
+    @students = Student.all 
+  end
 
-
+  def new 
+  end
 
 
 
